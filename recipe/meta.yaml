@@ -42,7 +42,7 @@ requirements:
     - {{ mpi }}
     - libgomp      # [linux]
     - llvm-openmp  # [osx]
-    - casacore 3.7.1 {{ mpi_prefix }}_*
+    - casacore 3.8.0 {{ mpi_prefix }}_*
     - fftw
     - gsl
     - libboost-devel
